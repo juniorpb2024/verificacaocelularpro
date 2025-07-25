@@ -1,0 +1,31 @@
+# Configuração específica para GitHub Pages
+plugins:
+  - jekyll-relative-links
+
+# Configurações gerais
+title: "CyberShield Pro"
+description: "Proteção Avançada de Dados - Funil de Segurança Profissional"
+url: ""
+baseurl: ""
+
+# Configurações do Jekyll
+markdown: kramdown
+highlighter: rouge
+relative_links:
+  enabled: true
+  collections: false
+
+# Inclui arquivos específicos
+include:
+  - index.html
+  - README.md
+
+# Exclui arquivos desnecessários
+exclude:
+  - node_modules/
+  - .git/
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
